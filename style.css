@@ -116,3 +116,14 @@ p {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 0px;
 }
+
+.frame {
+  justify-content: center;
+  align-items: center;
+}
+
+.frame img {
+  margin: 10px;
+  height: 200px;
+  border-radius: 25px;
+}
