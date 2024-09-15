@@ -1,0 +1,103 @@
+body {
+  background-color: white;
+}
+
+header {
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  margin-top: 0;
+}
+
+footer {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: brown;
+  font-size: 18px;
+  padding: 15px;
+  text-shadow: 2px 2px 8px #ff0000;
+}
+
+h3 {
+  margin-left: 25px;
+  margin-top: 100px;
+}
+
+h4 {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+span {
+  color: white;
+  font-size: 15px;
+}
+
+p {
+  margin-left: 25px;
+  font-size: 15px;
+}
+
+.maverick-logo {
+  width: 6.5%;
+  height: 80%;
+  margin: 5px;
+}
+
+.sliet-logo {
+  width: 7%;
+  height: 80%;
+  margin-right: 15px;
+}
+
+.theme {
+  width: 100%;
+  height: 500px;
+  align-content: center;
+  text-align: center;
+  color: orangered;
+  font-size: 25px;
+}
+
+.left-footer {
+  background-color: orangered;
+  width: 50%;
+  padding: 70px;
+}
+
+.right-footer {
+  background-color: black;
+  width: 50%;
+  padding: 70px;
+}
+
+.typing-animation {
+  animation-name: typing;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.container-contact {
+  margin: 100px;
+}
+
+.about-page{
+  margin-bottom: 100px;
+}
