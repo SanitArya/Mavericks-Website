@@ -98,6 +98,21 @@ p {
   margin: 100px;
 }
 
-.about-page{
+.about-page {
   margin-bottom: 100px;
+}
+
+.sh {
+  background-color: #ff3c00;
+}
+.curved {
+  background-color: #ff3c00;
+  color: white;
+  text-align: center;
+  margin-top: 0;
+}
+.curved h1 {
+  font-size: 30px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0px;
 }
