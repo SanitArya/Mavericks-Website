@@ -11,6 +11,7 @@ header {
 
 footer {
   display: flex;
+  margin-bottom: 10px;
 }
 
 nav ul li {
@@ -29,21 +30,30 @@ nav ul li a {
 h3 {
   margin-left: 25px;
   margin-top: 100px;
+  font-size: 26px;
 }
 
 h4 {
   overflow: hidden;
   white-space: nowrap;
+  font-size: auto;
 }
 
 span {
   color: white;
-  font-size: 15px;
+  font-size: auto;
 }
 
 p {
   margin-left: 25px;
-  font-size: 15px;
+  font-size: 14px;
+}
+
+table, th, td {
+  border:1px solid black;
+  margin-left:25px;
+  width:60%;
+  height: 50px;
 }
 
 .maverick-logo {
@@ -102,7 +112,8 @@ p {
 }
 
 .about-page {
-  margin-bottom: 100px;
+  margin-bottom: 80px;
+  width: 100%;
 }
 
 .sh {
@@ -185,6 +196,7 @@ textarea {
   border: none;
   background-color: #f8f9fa;
   color: #333;
+  font-size: 10px;
 }
 
 input:focus,
