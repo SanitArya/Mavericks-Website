@@ -49,10 +49,12 @@ p {
   font-size: 14px;
 }
 
-table, th, td {
-  border:1px solid black;
-  margin-left:25px;
-  width:60%;
+table,
+th,
+td {
+  border: 1px solid black;
+  margin-left: 25px;
+  width: 60%;
   height: 50px;
 }
 
@@ -178,7 +180,7 @@ table, th, td {
 }
 
 .contact_form h3 {
-  text-align: left;
+  text-align: middle;
   font-size: 24px;
   margin-bottom: 20px;
   color: #333;
@@ -190,13 +192,17 @@ table, th, td {
 
 input,
 textarea {
-  width: 100%;
+  width: 60%;
   padding: 12px;
   border-radius: 8px;
   border: none;
   background-color: #f8f9fa;
   color: #333;
   font-size: 10px;
+}
+
+textarea {
+  height: 100px;
 }
 
 input:focus,
@@ -232,12 +238,13 @@ button:hover {
 
 .contact_info p {
   margin-bottom: 10px;
+  margin-left: 50px;
   color: #333;
 }
 
 .contact_info i {
   color: #ff3c00;
-  margin-right: 10px;
+  margin-right: 50px;
 }
 
 .grid_wrapper {
